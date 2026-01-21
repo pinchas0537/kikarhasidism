@@ -2,6 +2,7 @@ header {
     background-color: black;
     height: 77.23px;
     text-align: center;
+    position: relative;
 }
 
 #kikar {
@@ -28,9 +29,12 @@ header {
 
 .menu {
     position: sticky;
+    top: 0px;
     text-align: center;
     border-bottom: 1px solid rgb(223, 223, 223);
     height: 46px;
+    background-color: white;
+    z-index: 1;
 
 }
 
@@ -90,4 +94,13 @@ header {
     font-size: 40px;
     font-variation-settings: normal;
     font-weight: 700;
+}
+.text{
+    text-align: center;
+    margin: 0 40% 0 0;
+}
+#imged{
+    width: 250px;
+    height: 144px;
+    float: right;
 }
