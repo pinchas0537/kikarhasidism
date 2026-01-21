@@ -1,0 +1,78 @@
+header {
+    background-color: black;
+    height: 77.23px;
+    text-align: center;
+}
+
+#kikar {
+    position: relative;
+    height: 75px;
+    top: 2px;
+    right: 16px;
+}
+
+.bi {
+    position: relative;
+    color: azure;
+    float: right;
+    top: 29px;
+    right: 280px;
+}
+
+#img {
+    position: relative;
+    float: left;
+    top: 16px;
+    left: 250px;
+}
+
+.menu {
+    position: sticky;
+    text-align: center;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    height: 46px;
+
+}
+
+.a {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    bottom: 5px;
+    padding: 0 20px 0 20px;
+    font-family: "Noto Sans Hebrew", "Noto Sans Hebrew Fallback";
+    font-feature-settings: normal;
+    font-size: 18px;
+    font-variation-settings: normal;
+    height: 36px;
+    color: #595959;
+    text-decoration: none;
+}
+
+.b {
+    border-bottom: 1px solid rgb(223, 223, 223);
+    height: 44px;
+    padding: 10px 240px 0 0;
+    font-size: 14px;
+
+}
+
+.c {
+    position: relative;
+    text-decoration: none;
+    color: rgb(79, 79, 79);
+    right: 15px;
+    left: 30px;
+    padding: 0 10px 0 0 ;
+}
+
+.h{
+    border-bottom: 1px solid rgb(223, 223, 223);
+    height: 72px;
+}
+.d{
+    background-color: rgb(155, 25, 25);
+    width: 16px;
+    height:16px ;
+    padding: 3px;
+}
