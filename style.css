@@ -63,16 +63,31 @@ header {
     color: rgb(79, 79, 79);
     right: 15px;
     left: 30px;
-    padding: 0 10px 0 0 ;
+    padding: 0 10px 0 0;
 }
 
-.h{
+.h {
     border-bottom: 1px solid rgb(223, 223, 223);
-    height: 72px;
 }
-.d{
+
+.d {
+    display: inline-block;
+    position: relative;
     background-color: rgb(155, 25, 25);
     width: 16px;
-    height:16px ;
-    padding: 3px;
+    height: 16px;
+    top: 28.5px;
+    right: 260px;
+}
+
+#p {
+    position: relative;
+    padding: 0 285px 0 0;
+    bottom: 18px;
+    height: 33px;
+    font-family:"oxford Fallback";
+    font-feature-settings: normal;
+    font-size: 40px;
+    font-variation-settings: normal;
+    font-weight: 700;
 }
